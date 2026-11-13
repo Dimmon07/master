@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AddPhotoAlternate
-import androidx.compose.material.icons.filled.EditDocument
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.PictureAsPdf
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Translate
@@ -77,7 +77,7 @@ fun HomeScreen(
             ModuleActionCard(
                 title = "Редактор PDF",
                 description = "Відкривайте PDF-файли з пристрою, міняйте сторінки місцями, повертайте, видаляйте або об'єднуйте кілька документів.",
-                icon = Icons.Default.EditDocument,
+                icon = Icons.Default.Edit,
                 badge = "PdfRenderer & Merge",
                 onClick = onNavigateToPdfEditor
             )
